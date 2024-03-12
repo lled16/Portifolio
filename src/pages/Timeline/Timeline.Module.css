@@ -1,0 +1,46 @@
+.linhaTime {
+    padding-bottom: 50px !important;
+}
+
+h1 {
+    color: black !important;
+}
+
+p {
+    color: black !important;
+}
+
+.linhaExp {
+    display: flex;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.experiencias {
+    color: white !important;
+    padding-bottom: 10vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.traco {
+    color: yellow !important;
+}
+
+@media (max-width: 600px) {
+    .experiencias {
+        padding-top: 7vh;
+    }
+}
+
+span {
+    color: black !important;
+    font-weight: bold;
+}
+
+.timeline-item-title.active {
+    background-color: transparent !important;
+    transform: scale(1.2);
+    color: yellow !important;
+    transition: all 200ms ease-in-out;
+}

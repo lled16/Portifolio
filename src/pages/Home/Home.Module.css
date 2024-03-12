@@ -1,0 +1,45 @@
+h1 {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* #titulo {
+    display:grid;
+    justify-content: center;
+    margin: 0;
+    display: flex;
+} */
+.principalContainer {
+    background-color: black;
+    margin: 0;
+    display: block;
+    min-width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 0;
+
+}
+
+h1 {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+
+.linhaTitulo {
+    width: 100% !important;
+    padding-top: 2%;
+    align-items: center;
+    height: 200px;
+}
+@media (max-width: 600px) {
+    .linhaTitulo {
+        height: 100px;
+    }
+}
+
+.titulo {
+    color: yellow !important;
+    font-size: 30px !important;
+}

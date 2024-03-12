@@ -1,0 +1,39 @@
+.tituloTecnologias {
+    display: flex;
+    justify-content: center !important;
+    text-align: center !important;
+    padding-top: 5rem;
+}
+
+.colImagensTecnologias {
+    display: flex;
+    justify-content: center !important;
+    text-align: center !important;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 10vw;
+
+}
+.tecnologiasTitulo{
+    color: white !important;
+}
+
+.logosTecnologias {
+    width: 6rem;
+    filter: grayscale(1);
+}
+
+.logosTecnologias:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .logosTecnologias {
+        filter: grayscale(0);
+        width: 4rem;
+    }
+}

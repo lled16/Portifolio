@@ -1,0 +1,49 @@
+.cabecalho {
+    width: 100% !important;
+    padding-top: 2%;
+    align-items: center;
+    height: 200px;
+    flex-wrap: wrap;
+}
+
+.colCabecalho {
+    display: flex;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.profileImage {
+    width: 35% !important;
+    border-radius: 60%;
+    box-shadow: 0px 0px 17px 0px rgba(255, 255, 255, 1);
+}
+
+.nome {
+    font-size: 4rem !important;
+    color: white !important;
+}
+
+.cabNome{
+   padding-top: 0;
+}
+@media (max-width: 600px) {
+    .nome {
+        font-size: 2rem !important;
+    }
+
+    .cabecalho {
+        flex-direction: column !important;
+        height: 25rem;
+    }
+
+    .profileImage {
+        width: 50% !important;
+    }
+
+    .colCabecalho {
+        align-items: center;
+    }
+    .cabNome{
+        padding-top: 2rem;
+    }
+}
