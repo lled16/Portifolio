@@ -9,12 +9,6 @@ export default function Rodape() {
     return (
         <Row className="rodape">
             <Col>
-                <h1 className="rodapeTexto">
-                    ENTRE EM CONTATO
-                </h1>
-            </Col>
-
-            <Col>
                 <a href="https://criarmeulink.com.br/u/1710277022" target="_blank"><img className="logosContato" src={gmail} /></a>
                 <a href="https://www.linkedin.com/in/joao-sim%C3%A3o/" target="_blank"><img className="logosContato" src={linkedin} /></a>
                 <a href="https://github.com/lled16" target="_blank"><img className="logosContato" src={github} /></a>
