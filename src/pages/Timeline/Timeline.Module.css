@@ -32,11 +32,12 @@ p {
         padding-top: 4vh;
         padding-bottom: 2vh;
     }
+    .linhaExp {
+        flex-direction: column;
+    }
 }
 
-.linhaExp {
-    flex-direction: column;
-}
+
 
 span {
     color: black !important;
