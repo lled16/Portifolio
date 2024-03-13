@@ -20,17 +20,44 @@ export default function Tecnologias() {
             </Row>
             <Row>
                 <Col className="colImagensTecnologias">
-                    <img className="logosTecnologias" src={reactjsLogo} />
-                    <img className="logosTecnologias" src={csharpLogo} />
-                    <img className="logosTecnologias" src={bootstrapLogo} />
-                    <img className="logosTecnologias" src={rabbitmqLogo} />
-                    <img className="logosTecnologias" src={dotnetLogo} />
-                    <img className="logosTecnologias" src={mysqlLogo} />
-                    <img className="logosTecnologias" src={dockerLogo} />
-                    <img className="logosTecnologias" src={oracleLogo} />
-                    <img className="logosTecnologias" src={javascriptLogo} />
+                    <div className="icon-field">
+                        <img className="logosTecnologias" src={reactjsLogo} />
+                        <p className="nomeTecnologia">React</p>
+                    </div>
+                    <div className="icon-field">
+                        <img className="logosTecnologias" src={csharpLogo} />
+                        <p className="nomeTecnologia">C#</p>
+                    </div>
+                    <div className="icon-field">
+                        <img className="logosTecnologias" src={bootstrapLogo} />
+                        <p className="nomeTecnologia">Bootstrap</p>
+                    </div>
+                    <div className="icon-field">
+                        <img className="logosTecnologias" src={rabbitmqLogo} />
+                        <p className="nomeTecnologia">RabbitMQ</p>
+                    </div>
+                    <div className="icon-field">
+                        <img className="logosTecnologias" src={dotnetLogo} />
+                        <p className="nomeTecnologia">.NET</p>
+                    </div>
+                    <div className="icon-field">
+                        <img className="logosTecnologias" src={mysqlLogo} />
+                        <p className="nomeTecnologia">MySQL</p>
+                    </div>
+                    <div className="icon-field">
+                        <img className="logosTecnologias" src={dockerLogo} />
+                        <p className="nomeTecnologia">Docker</p>
+                    </div>
+                    <div className="icon-field">
+                        <img className="logosTecnologias" src={oracleLogo} />
+                        <p className="nomeTecnologia">PLSQL</p>
+                    </div>
+                    <div className="icon-field">
+                        <img className="logosTecnologias" src={javascriptLogo} />
+                        <p className="nomeTecnologia">JavaScript</p>
+                    </div>
                 </Col>
-            </Row>
+            </Row >
         </>
     )
 }

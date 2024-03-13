@@ -22,15 +22,34 @@
     color: white !important;
 }
 
+.nomeTecnologia{
+    padding: 1vh !important;
+    font-weight: bold;
+    color: yellow !important;
+}
+
 .logosTecnologias {
     width: 6rem;
     filter: grayscale(1);
+    transition: transform 200ms ease-in-out;
 }
 
-.logosTecnologias:hover {
-    filter: grayscale(0);
-    transform: scale(1.1);
+.icon-field p {
+    opacity: 0;
+    transition: opacity 250ms ease-in-out;
 }
+
+.icon-field:hover p {
+    opacity: 1;
+}
+
+.icon-field:hover {
+    .logosTecnologias {
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+}
+
 
 @media (max-width: 690px) {
     .logosTecnologias {
@@ -39,11 +58,12 @@
     }
 }
 
-@media ( max-width: 2507px) {
+@media (max-width: 2507px) {
     .logosTecnologias {
         width: 3.5rem;
     }
-    .colImagensTecnologias{
+
+    .colImagensTecnologias {
         gap: 3rem;
     }
 }
