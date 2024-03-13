@@ -2,8 +2,8 @@
     width: 100% !important;
     padding-top: 2%;
     align-items: center;
-    height: 200px;
-    flex-wrap: wrap;
+    height: max-content;
+    /* flex-wrap: wrap; */
 }
 
 .colCabecalho {
@@ -26,14 +26,16 @@
 .cabNome{
    padding-top: 0;
 }
-@media (max-width: 600px) {
+@media (max-width: 667px) {
     .nome {
         font-size: 2rem !important;
+        padding-top: 15%;
+        padding-bottom: 10%;
     }
 
     .cabecalho {
         flex-direction: column !important;
-        height: 25rem;
+        height: max-content;
     }
 
     .profileImage {

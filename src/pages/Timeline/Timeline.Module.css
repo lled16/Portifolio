@@ -29,8 +29,13 @@ p {
 
 @media (max-width: 600px) {
     .experiencias {
-        padding-top: 7vh;
+        padding-top: 4vh;
+        padding-bottom: 2vh;
     }
+}
+
+.linhaExp {
+    flex-direction: column;
 }
 
 span {
@@ -55,6 +60,6 @@ span {
     font-weight: bold;
 }
 
-.show-more:hover{
+.show-more:hover {
     text-decoration: underline solid black !important;
 }
