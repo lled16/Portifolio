@@ -31,7 +31,7 @@
     transform: scale(1.1);
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 690px) {
     .logosTecnologias {
         filter: grayscale(0);
         width: 4rem;
