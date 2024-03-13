@@ -43,4 +43,7 @@
     .logosTecnologias {
         width: 3.5rem;
     }
+    .colImagensTecnologias{
+        gap: 3rem;
+    }
 }
