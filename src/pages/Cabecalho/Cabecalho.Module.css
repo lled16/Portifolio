@@ -39,11 +39,12 @@
     .profileImage {
         width: 50% !important;
     }
-
     .colCabecalho {
         align-items: center;
+        padding-left: 7vw;
+        padding-right: 7vw;
     }
-    .cabNome{
-        padding-top: 2rem;
+    .vazia{
+        display: none;
     }
 }

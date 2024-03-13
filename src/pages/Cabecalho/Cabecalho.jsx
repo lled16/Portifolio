@@ -14,7 +14,7 @@ export default function Cabecalho() {
             <Col className='colCabecalho cabNome'>
                 <h1 className='nome'>João Simão</h1>
             </Col>
-            <Col className='colCabecalho'>
+            <Col className='colCabecalho vazia'>
                 {/* <Menu /> */}
             </Col>
         </Row>

@@ -5,20 +5,11 @@ export default function Sobre() {
     return (
         <Row>
             <Col className="colSobre">
-                <p className="sobre">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dignissimos reprehenderit nesciunt, natus consequatur
-                    sunt repudiandae nihil id assumenda tempora sint doloremque
-                    error odit suscipit, dolorem reiciendis ex dolor, et dolorum.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dignissimos reprehenderit nesciunt, natus consequatur
-                    sunt repudiandae nihil id assumenda tempora sint doloremque
-                    error odit suscipit, dolorem reiciendis ex dolor, et dolorum.
-                    
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dignissimos reprehenderit nesciunt, natus consequatur
-                    sunt repudiandae nihil id assumenda tempora sint doloremque
-                    error odit suscipit, dolorem reiciendis ex dolor, et dolorum.
+                <p className="sobre">Olá, Meu nome é João Vitor !
+                    Sou extremamente apaixonado pela área de tecnologia, principalmente programação!
+                    Tive meu primeiro contato com o desenvolvimento aos 17 anos e desde então sigo em
+                    busca de melhorar a cada dia ! Além de programação, tenho um bom conhecimento de
+                    manutenção de computadores e redes.
                 </p>
             </Col>
         </Row>

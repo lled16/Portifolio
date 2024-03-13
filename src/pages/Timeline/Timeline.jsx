@@ -2,6 +2,7 @@ import { Chrono } from "react-chrono";
 import { Col, Row } from "react-bootstrap";
 import '../Timeline/Timeline.Module.css'
 
+
 const items =
     [
         {
@@ -74,7 +75,7 @@ const items =
                 - Desenvolvimento WEB (Java, JS, PHP, Bootstrap, Materialize, HTML 5 e CSS3) <br />
                 - Desenvolvimento Mobile (Java) <br />
                 - Desenvolvimento Desktop (Java) <br />
-                - Programação Orientada a Objetos v
+                - Programação Orientada a Objetos <br />
                 - Documentação <br />
             </p>,
         },
@@ -87,13 +88,13 @@ export default function Timeline() {
             <Row>
                 <Col className="linhaExp">
                     <h1 className="experiencias">EXPERIÊNCIAS</h1>
-                    <h1 className="experiencias traco">|</h1>
-                    <h1 className="experiencias">FORMAÇÃO</h1>
+                    <h1 className="experiencias traco"> & </h1>
+                    <h1 className="experiencias">FORMAÇÕES</h1>
                 </Col>
             </Row>
             <Row className="linhaTime">
                 <Col>
-                    <Chrono items={items} disableToolbar="false" className="cards" mode="VERTICAL_ALTERNATING" theme={{
+                    <Chrono items={items} disableToolbar="false" useReadMore="false" className="cards" mode="VERTICAL_ALTERNATING" theme={{
                         primary: 'yellow',
                         secondary: 'white',
                         cardBgColor: 'white',
@@ -102,6 +103,7 @@ export default function Timeline() {
                         cardTitle: 'black'
                     }} />
                 </Col>
-            </Row></>
+            </Row>
+        </>
     )
 }

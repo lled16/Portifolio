@@ -6,7 +6,7 @@ p{
 .colSobre{
     display: flex;
     justify-content: center !important;
-    padding: 4vh 5vw 0 5vw;
+    padding: 4vh 15vw 0 15vw;
     text-align: justify;
 }
 .sobre{

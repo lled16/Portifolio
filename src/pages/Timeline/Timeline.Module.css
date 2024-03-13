@@ -44,3 +44,17 @@ span {
     color: yellow !important;
     transition: all 200ms ease-in-out;
 }
+
+.show-more span {
+    display: none;
+}
+
+.show-more:after {
+    content: 'VER MAIS' !important;
+    color: black;
+    font-weight: bold;
+}
+
+.show-more:hover{
+    text-decoration: underline solid black !important;
+}
