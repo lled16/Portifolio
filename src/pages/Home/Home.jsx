@@ -8,8 +8,11 @@ import Sobre from '../Sobre/Sobre'
 import Tecnologias from "../Tecnologias/Tecnologias";
 import Timeline from "../Timeline/Timeline";
 import Rodape from "../Rodape/Rodape";
+import '../../i18nify'
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+    const {t} = useTranslation();
     return (
         <Container className='principalContainer'>
 
@@ -18,7 +21,8 @@ export default function Home() {
             <Row className='linhaTitulo'>
                 <Col className='colCabecalho'>
                     <h1 className='titulo'>
-                        Desenvolvedor FullStack C# .NET • React
+                        {/* Desenvolvedor FullStack C# .NET • React */}
+                        {t("tituloCargo.title")}
                     </h1>
                 </Col>
             </Row>

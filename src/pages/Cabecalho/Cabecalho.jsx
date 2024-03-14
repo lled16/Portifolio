@@ -3,6 +3,7 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import profileImage from '../../assets/perfil.jpg';
 import '../Cabecalho/Cabecalho.Module.css'
+import SeletorLinguagem from '../SeletorLinguagem/SeletorLinguagem'
 
 export default function Cabecalho() {
     return (
@@ -13,8 +14,9 @@ export default function Cabecalho() {
             <Col className='colCabecalho cabNome'>
                 <h1 className='nome'>João Simão</h1>
             </Col>
-            <Col className='colCabecalho vazia'>
+            <Col className='colCabecalho'>
                 {/* <Menu /> */}
+                <SeletorLinguagem/>
             </Col>
         </Row>
     )
