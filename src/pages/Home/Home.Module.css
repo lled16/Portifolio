@@ -24,14 +24,18 @@ h1 {
     align-items: center;
     height: 20vh;
 }
+
+.titulo {
+    color: yellow !important;
+    font-size: 4vh !important;
+}
+
 @media (max-width: 600px) {
     .linhaTitulo {
         height: 10vh;
         padding-bottom: 25%;
     }
-}
-
-.titulo {
-    color: yellow !important;
-    font-size: 30px !important;
+    .titulo{
+        font-size: 3vh !important;
+    }
 }

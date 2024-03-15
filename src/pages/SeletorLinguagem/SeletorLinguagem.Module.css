@@ -7,7 +7,7 @@
 
 .bandeira{
     padding: 5px;
-    width: 3.5v;
+    width: 3v;
     filter: grayscale(1)
 }
 .bandeira:hover{
