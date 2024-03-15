@@ -1,3 +1,12 @@
 {
-    "tituloCargo": {"title" : "FullStack Developer .NET and ReactJS"}
+    "tituloCargo": {"title" : "FullStack Developer .NET and ReactJS"},
+
+
+    "sobreMim": {"sobre" : "Hello, my name is João Vitor! I am extremely passionate about technology, especially programming! I started my studies in 2015, where through a course taken at the SENAI unit, I studied network and computer maintenance. I had my first contact with development in 2017 at the age of 17, where I went through languages ​​like JAVA and PHP, but in 2022 I had my first contacts with C# and since then I've been looking to improve every day! Currently, in addition to Backend and Database, I am studying Frontend using ReactJS and this page was built intuitively to practice a little. Check out some of the technologies I have worked on and work on below."},
+
+    "tituloTecnologias":{"titulo" : "TECHNOLOGIES"},
+
+    "tituloExperiencias":{"titulo" : "EXPERIENCES"},
+
+    "tituloFormacoes":{"titulo" : "TRAININGS"}
 }

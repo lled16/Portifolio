@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import brasilLogo from '../../assets/icons/eua.svg'
+import brasilLogo from '../../assets/icons/eua.svg';
 import euaLogo from '../../assets/icons/brasil.svg';
 import '../SeletorLinguagem/SeletorLinguagem.Module.css';
 

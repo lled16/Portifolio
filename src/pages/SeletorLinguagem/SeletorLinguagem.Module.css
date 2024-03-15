@@ -7,7 +7,12 @@
 
 .bandeira{
     padding: 5px;
-    width: 1v;
+    width: 3.5vw;
+    filter: grayscale(1)
+}
+.bandeira:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
 
 @media (max-width: 690px) {
@@ -17,5 +22,6 @@
        justify-content: center;
        padding-bottom: 3vh;
        padding-top: 3vh;
+       filter: grayscale(0);
     }
 }

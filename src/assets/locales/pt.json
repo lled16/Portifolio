@@ -1,3 +1,11 @@
 {
-    "tituloCargo": {"title" : "Desenvolvedor FullStack C# .NET • React"}
+    "tituloCargo": {"title" : "Desenvolvedor FullStack C# .NET • React"},
+
+    "sobreMim": {"sobre" : "Olá, Meu nome é João Vitor ! Sou extremamente apaixonado pela área de tecnologia, principalmente programação! Iniciei meus estudos em 2015, onde através de um curso realizado na unidade do SENAI, obtive conhecimentos de manutenção de redes e computadores. Tive meu primeiro contato com o desenvolvimento em 2017 aos 17 anos, onde passei por linguagens como JAVA e PHP, mas em 2022 tive meus primeiros contatos com C# e desde então sigo em busca de melhorar a cada dia ! Atualmente, além do Backend e Banco de dados estou estudando Frontend utilizando ReactJS e esta página foi construída no intuido de praticar um pouco. Confira abaixo algumas das tecnologias que já trabalhei e trabalho."},
+
+    "tituloTecnologias":{"titulo" : "TECNOLOGIAS"},
+
+    "tituloExperiencias":{"titulo" : "EXPERIÊNCIAS"},
+
+    "tituloFormacoes":{"titulo" : "FORMAÇÕES"}
 }

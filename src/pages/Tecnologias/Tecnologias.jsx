@@ -9,13 +9,16 @@ import mysqlLogo from '../../assets/icons/mysql.svg';
 import javascriptLogo from '../../assets/icons/javascript.svg';
 import rabbitmqLogo from '../../assets/icons/rabbitmq.svg';
 import oracleLogo from '../../assets/icons/oracle.svg';
+import '../../i18nify'
+import { useTranslation } from "react-i18next";
 
 export default function Tecnologias() {
+    const {t} = useTranslation();
     return (
         <>
             <Row>
                 <Col className="tituloTecnologias">
-                    <h1 className="tecnologiasTitulo">TECNOLOGIAS</h1>
+                    <h1 className="tecnologiasTitulo">{t("tituloTecnologias.titulo")}</h1>
                 </Col>
             </Row>
             <Row>

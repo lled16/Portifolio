@@ -11,4 +11,5 @@ p{
 }
 .sobre{
     color: white !important;
+    text-justify: inter-word;
 }
